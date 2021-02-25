@@ -104,11 +104,13 @@ Baby.prototype.play = function (favoriteToy) {
 /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. In a global scope, "this" refer to the window in the browser
+    2. In a local scope, "this" refer to the object
+    3. In a constructor, "this" refer to the instance
+    4. When a call or apply method is used, "this" refer to the argument
   */
+
+//A Person is a type. Person is a blueprint. This blueprint contain characteristics aka properties or attributes and methods. If something is an instance of a type it have the same chars and methods.
 
 ///////// END OF CHALLENGE /////////
 
