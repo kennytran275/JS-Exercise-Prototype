@@ -96,7 +96,7 @@ function Baby(name, age, favoriteToy) {
   this.favoriteToy = favoriteToy;
 }
 
-Baby.prototype = Person.prototype; //Baby constructor subclassing Person.
+Baby.prototype = Object.create(Person.prototype); //Baby constructor subclassing Person.
 Baby.prototype.play = function (favoriteToy) {
   return `Playing with ${this.favoriteToy}`;
 };
